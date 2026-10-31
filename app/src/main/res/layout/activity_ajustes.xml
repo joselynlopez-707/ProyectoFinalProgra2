@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:paddingTop="48dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajustes"
+        android:textColor="@color/titulo"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/swOscuro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Modo oscuro"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Moneda"
+        android:textColor="@color/acento"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rgMoneda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbQuetzal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quetzales (Q)" />
+
+        <RadioButton
+            android:id="@+id/rbDolar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dólares (US$)" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etCambio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="1 US$ = ¿cuántos quetzales?"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnGuardarAjustes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/morado"
+        android:text="Guardar moneda"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/btnPerfiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/verde"
+        android:text="Cambiar de perfil"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

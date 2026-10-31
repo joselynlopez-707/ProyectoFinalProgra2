@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="morado">#6A1B9A</color>
+    <color name="verde">#1B5E20</color>
+    <color name="fondo">#FAFAFA</color>
+    <color name="tarjeta">#F3E5F5</color>
+    <color name="titulo">#1B5E20</color>
+    <color name="acento">#6A1B9A</color>
+    <color name="superficie">#FFFFFF</color>
+    <color name="peligro">#C62828</color>
+</resources>
